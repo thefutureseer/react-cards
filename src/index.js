@@ -4,7 +4,7 @@ import './css/index.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
 //Card component
-import Card from "../src/cards/cardUi";
+import Card from "../src/card/cardUi";
 
 //Import bootstrap file from node modules
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"; 
