@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './css/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+//Card component
+import Card from "../src/cards/cardUi";
+
+//Import bootstrap file from node modules
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css"; 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Card />
   </React.StrictMode>,
   document.getElementById('root')
 );
