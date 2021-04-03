@@ -2,7 +2,7 @@ import React from 'react';
 import horsy from '../css/images/babyHorse2.jpg';
 import "../css/card-style.css";
 
-export default function Card(props) {
+function Card(props) {
   return (
     <div className='card text-center'>
       <div className="overflow">
@@ -21,3 +21,4 @@ export default function Card(props) {
     </div>
   )
 }
+ export default Card;

@@ -1,12 +1,12 @@
 body {
-  /* background: radial-gradient(#e5e5e5, #ffff, #e5e5e5); */
+  /* background: radial-gradient(#080808, rgb(0, 0, 0), #e5e5e5)!important */
   background-image: url(./images/starfall.gif);
 }
 
 .card{
-  width: 20rem;
+  width: 21rem;
 }
 
-.card:hover {
-  box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253) !important;
+.card:hover{
+  box-shadow: 5px 10px 20px 1px rgba(255, 0, 0, 0.966)!important
 }
