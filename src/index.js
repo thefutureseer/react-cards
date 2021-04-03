@@ -4,14 +4,14 @@ import './css/index.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
 //Card component
-import Card from "../src/card/cardUi";
+import Cards from "./components/cards";
 
 //Import bootstrap file from node modules
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"; 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Card />
+    <Cards />
   </React.StrictMode>,
   document.getElementById('root')
 );
