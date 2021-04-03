@@ -1,7 +1,8 @@
 import React from 'react';
 import horsy from '../css/images/babyHorse2.jpg';
+import "../css/card-style.css";
 
-export default function cardUi(props) {
+export default function Card(props) {
   return (
     <div className='card text-center'>
       <div className="overflow">
