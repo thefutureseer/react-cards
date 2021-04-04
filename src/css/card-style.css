@@ -3,10 +3,37 @@ body {
   background-image: url(./images/starfall.gif);
 }
 
+img{
+  height: 25rem;
+}
+
 .card{
+  height: 42rem;
   width: 21rem;
+  margin: 1rem;
 }
 
 .card:hover{
-  box-shadow: 5px 10px 20px 1px rgba(255, 0, 0, 0.966)!important
+  box-shadow: 5px 10px 20px 1px rgba(255, 0, 0, 0.966)!important;
+}
+
+.card-body {
+  padding: 3rem 0 !important;
+}
+
+.card-text {
+ font-size: .9rem;
+ padding: 0.4rem 1.9rem;
+}
+
+.container-fluid .row {
+  padding-top: 6rem;
+}
+
+.card {
+  transform: scale(1);
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
